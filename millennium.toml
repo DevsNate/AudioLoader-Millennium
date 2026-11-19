@@ -1,0 +1,16 @@
+[plugin]
+id = "audioloader"
+name = "Audio Loader"
+version = "1.0"
+author = "DevsNate"
+description = "Replaces Steam's UI sounds and adds menu music with packs from DeckThemes, in Big Picture and on the Steam desktop."
+
+[backend]
+entry = "backend/main.lua"
+sources = ["backend/**/*.lua"]
+
+[frontend]
+entry = "frontend/index.tsx"
+
+[compiler]
+output_path = "dist/audioloader.star"
